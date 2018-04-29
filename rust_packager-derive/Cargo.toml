@@ -1,0 +1,14 @@
+[package]
+name = "rust_packager-derive"
+version = "0.1.0"
+authors = ["Patrick Bruckner <developer.patrick.bruckner@gmail.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.5.2"
+serde = "1.0.43"
+serde_derive = "1.0.43"
+syn = "0.13.1"
+toml = "0.4.6"

@@ -1,0 +1,12 @@
+[package]
+name = "rust_packager"
+version = "0.1.0"
+authors = ["Patrick Bruckner <developer.patrick.bruckner@gmail.com>"]
+
+[workspace]
+members = ["rust_packager-derive"]
+
+[dependencies]
+reexport-proc-macro = "1.0.2"
+rust_packager-derive = { path = "rust_packager-derive" }
+tempfile = "3"
